@@ -1,0 +1,121 @@
+Siempre crear nuestro código php entre:
+
+<?php
+…….
+?>
+
+Función para mostrar mensajes en pantalla:
+
+echo "....";
+
+Comentar nuestro código(una línea):
+
+// ……
+
+Comentar nuestro código (multilinea):
+
+/*.........
+ ……... 
+………. */
+
+Declarar variables(no necesitamos especificar el tipo):
+
+$.....="....";                      Ejemplo: $name="Pepe";
+
+Declarar constantes:
+
+Define(nombre,valor,mayúsculas):
+
+Nombre: nombre de nuestra nueva constante
+
+Valor: valor que le asignamos a nuestra nueva constante (string entre comillas, int no hace falta)
+
+Mayúsculas: false (sensible)  /  true (insensible)
+
+Alcance global para declarar funciones:
+
+Dentro de una función, podemos usar la palabra clave "global" para llamar a una variable que se encuentre por fuera de la función. Esto nos permite modificarla o usarla.
+
+?php
+    $name = 'David';                    //Declaramos variable
+    function getName() {              //Creamos una función
+        global $name;                     //Llamamos globalmente
+        echo $name;                      //Imprimimos mensaje
+    }
+    getName();                             //Llamamos a la función
+?>
+
+Usar una variable variable:
+
+Podemos usar una variable contenida en otra variable de esta forma.
+
+$a= "hola";
+$hola= "buen día";
+
+$$a          (Así llamamos a la variable variable en este ejemplo, con doble $)      
+
+Salida= buen dia
+
+Operador aritmético de asignación:
+
+Podemos usar los operadores += o -=
+
+Ejemplo.
+
+<?php
+    $x = 50;
+    $x += 100;        //Le asignamos x = x + 100
+    echo $x;
+?> 
+
+
+Operadores de comparación:
+
+
+
+
+
+Operadores lógicos:
+
+
+
+
+
+Funciones HTML:
+
+negrita:
+
+<strong>...........</strong>
+
+Encabezado:
+
+<h1>...........</h1>
+
+Párrafos:
+
+<p>.........</p>
+
+Salto de línea:
+
+usar <br /> donde queramos hacer el salto de línea.
+
+
+
+
+
+
+
+
+
+
+
+Otras funciones de HTML:
+
+
+
+
+
+
+RESULTANDO EN:
+
+
