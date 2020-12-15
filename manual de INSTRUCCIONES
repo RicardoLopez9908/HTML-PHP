@@ -45,7 +45,7 @@ Dentro de una función, podemos usar la palabra clave "global" para llamar a una
     getName();                             //Llamamos a la función
 ?>
 
-Usar una variable variable:
+Usar una variable en variable:
 
 Podemos usar una variable contenida en otra variable de esta forma.
 
@@ -72,13 +72,38 @@ Ejemplo.
 Operadores de comparación:
 
 
+==        ejemplo: $x==$y       igual   (retorna true si son iguales)
 
+===       ejemplo: $x===$y      identicos (retorna true si son iguales y son del mismo tipo)
+
+!=        ejemplo: $x!=$y       no igual  (retorna true si no son iguales)
+
+<>        ejemplo: $x<>$y       no igual  (retorna true si no son iguales)
+
+!==       ejemplo: $x!==$y      no identico   (retorna true si no son iguales o no son del mismo tipo)
+
+>         ejemplo: $x>$y        mayor que  (retorna true si es mayor)
+
+<         ejemplo: $x<$y        menor que  (retorna true si es menor)
+
+>=        ejemplo: $x>=$y       mayor o igual   (retorna true si es mayor o igual)
+
+<=        ejemplo: $x<=$y       menor o igual   (retorna true si es menor o igual)
 
 
 Operadores lógicos:
 
+and      ejemplo: $x and $y         (true si tanto x como y son true)
 
+or       ejemplo: $x or $y          (true si al menos x o y es true)
 
+xor      ejemplo: $x xor $y         (true si al menos x o y es true, pero no ambas)
+
+&&       ejemplo: $x && $y          (true si tanto x como y es true)
+
+||       ejemplo: $x || $y          (true si al menos x o y es true)
+
+!        ejemplo: !$x               (true si x no es true)
 
 
 Funciones HTML:
@@ -100,22 +125,24 @@ Salto de línea:
 usar <br /> donde queramos hacer el salto de línea.
 
 
-
-
-
-
-
-
-
-
-
 Otras funciones de HTML:
 
-
-
-
-
-
-RESULTANDO EN:
+<html>
+  <head>
+      <title>Primera pagina</title>
+       </head>
+  <body>
+      <p>Esto es un texto regular</p>
+      <p><b>Texto en negrita</b></p>
+      <p><big>Texto grande</big></p>
+      <p><i>Texto en cursiva</i></p>
+      <p><small>Texto pequeño</small></p>
+      <p><Strong>Texto reforzado</Strong></p>
+      <p><sub>Texto subindice</sub></p>
+      <p><sup>Texto superindice</sup></p>
+      <p><ins>Texto insertado</ins></p>
+      <p><>Texto borrado</del></p>
+  </body>
+</html>
 
 
